@@ -350,6 +350,12 @@ main {
 }
 .modal .cerrar-modal img {
     width: 100%;
+
+}
+
+.modal .cerrar-modal img:hover {
+    cursor: pointer;
+    
 }
 
 .modal .formulario {
