@@ -1,13 +1,7 @@
 import React from 'react'
+import { formatearCantidad } from '../helpers';
 
 const ControlPresupuesto = ({presupuesto}) => {
-
-    const formatearCantidad = cantidad => (
-        cantidad.toLocaleString('HNL' , {
-            style : 'currency' , 
-            currency : 'HNL'
-        })
-    );
 
     return (
         <div className="contenedor-presupuesto contenedor sombra dos-columnas">
